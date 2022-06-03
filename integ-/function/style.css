@@ -1,0 +1,32 @@
+/* @font-face {
+    font-family: 'stay_classy_sldtregular';
+    src: url('stay_classy_sldt-webfont.woff2') format('woff2'),
+         url('stay_classy_sldt-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+} */
+section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+    border: 1px solid black;
+    padding: 50px;
+    flex-direction: column;
+
+}
+label{
+    font-family: 'stay_classy_sldtregular';
+    font-weight: 900;
+    font-size: 30px;
+}
+select#section {
+    font-size: 20px;
+}
+p {
+    font-size: 30px;
+    border: 1px solid black;
+    color: deeppink;
+}
